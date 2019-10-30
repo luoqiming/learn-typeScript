@@ -40,4 +40,3 @@ let b: string = undefined;
 let b2: number = undefined;
 let b3: number = null;
 
-
