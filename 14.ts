@@ -59,9 +59,9 @@ interface Point3D extends Point {
 }
 
 let point3d: Point3D = {
-    x: 434,
-    y: 34343,
-    z: 43545454
+    x: 12,
+    y: 43,
+    z: 99999
 };
 
 
