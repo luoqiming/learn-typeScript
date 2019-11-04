@@ -15,10 +15,12 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var Pc = /** @class */ (function () {
     function Pc(name) {
+        this.type = "fdfd";
         this.name = name;
     }
     Pc.prototype.link = function () {
         console.log(this.name + "\u6B63\u5728\u4E0A\u7F51");
+        console.log(this.type);
     };
     return Pc;
 }());
@@ -41,4 +43,8 @@ var Point = /** @class */ (function () {
     }
     return Point;
 }());
-var point3d = new Point();
+var point3d = {
+    x: 12,
+    y: 43,
+    z: 99999
+};

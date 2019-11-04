@@ -6,6 +6,7 @@
 
 interface Net {
     link();
+    type: string
 }
 
 interface Email {
@@ -13,12 +14,14 @@ interface Email {
 }
 
 class Pc implements Net {
+    type = "fdfd";
     constructor(name) {
         this.name = name;
     }
     name;
     link() {
         console.log(`${this.name}正在上网`);
+        console.log(this.type);
     }
 }
 
